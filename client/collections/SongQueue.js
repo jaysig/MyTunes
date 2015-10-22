@@ -11,6 +11,15 @@ var SongQueue = Songs.extend({
     //
   }
 
+
+  .enqueue: function(){
+    queue.push(this);
+  },
+
+  .add
+
+
+
 //Write logic for functions
 
 // if a song is added and it's the only song in the queue - it gets played
